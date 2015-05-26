@@ -7,10 +7,10 @@ before_script:
   - npm install
   - chmod +x ./node_modules/.bin/grunt
   - cd nightwatch
+  - java -jar ./../assets/selenium-server-standalone-2.45.0.jar
 
 script:
   - grunt --force
-  - java -jar ./../assets/selenium-server-standalone-2.45.0.jar
   - node nightwatch.js
 
 
