@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="clickElement_module"
+    errors="0" failures="0" hostname="" id="" package="clickElement_module" skipped="0"
+    tests="1" time="14.68" timestamp="Mon, 25 May 2015 16:15:54 GMT">
+  
+    <testcase name="Click" time="14.68" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="share_test"
+    errors="0" failures="1" hostname="" id="" package="share_test" skipped="0"
+    tests="1" time="2.123" timestamp="Mon, 25 May 2015 17:52:21 GMT">
+  
+    <testcase name="Share" time="2.123" assertions="1">  <failure message="Timed out while waiting for element &lt;body&gt; to be present for 1000 milliseconds.">Timed out while waiting for element &lt;body&gt; to be present for 1000 milliseconds.: Expected &quot;visible&quot; but got: &quot;not found&quot;
+    at F.WaitForElement.fail (C:\Users\Muhammad\desktop\nightwatch-testing\my_tests\nightwatch\lib\api\commands\_waitForElement.js:194:15)
+    at F.WaitForElementPresent.elementNotFound (C:\Users\Muhammad\desktop\nightwatch-testing\my_tests\nightwatch\lib\api\commands\waitForElementPresent.js:57:15)
+    at Object.&lt;anonymous&gt; (C:\Users\Muhammad\desktop\nightwatch-testing\my_tests\nightwatch\lib\api\commands\_waitForElement.js:221:17)
+    at HttpRequest.&lt;anonymous&gt; (C:\Users\Muhammad\desktop\nightwatch-testing\my_tests\nightwatch\lib\index.js:299:20)
+    at HttpRequest.emit (events.js:110:17)
+    at HttpRequest.&lt;anonymous&gt; (C:\Users\Muhammad\desktop\nightwatch-testing\my_tests\nightwatch\lib\index.js:346:15)
+    at HttpRequest.emit (events.js:118:17)
+    at IncomingMessage.&lt;anonymous&gt; (C:\Users\Muhammad\desktop\nightwatch-testing\my_tests\nightwatch\lib\http\request.js:150:16)
+    at IncomingMessage.emit (events.js:129:20)
+    at _stream_readable.js:908:16</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

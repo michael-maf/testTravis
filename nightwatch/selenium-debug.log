@@ -1,0 +1,80 @@
+14:14:17.064 INFO - Launching a standalone server
+Setting system property webdriver.firefox.profile to webdriver
+14:14:17.111 INFO - Java: Oracle Corporation 24.80-b11
+14:14:17.111 INFO - OS: Windows 7 6.1 amd64
+14:14:17.111 INFO - v2.45.0, with Core v2.45.0. Built from revision 5017cb8
+14:14:17.204 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+14:14:17.204 INFO - Version Jetty/5.1.x
+14:14:17.204 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+14:14:17.204 INFO - Started HttpContext[/selenium-server,/selenium-server]
+14:14:17.204 INFO - Started HttpContext[/,/]
+14:14:17.251 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@f0cb191
+14:14:17.251 INFO - Started HttpContext[/wd,/wd]
+14:14:17.251 INFO - Started SocketListener on 0.0.0.0:4444
+14:14:17.251 INFO - Started org.openqa.jetty.jetty.Server@78090631
+14:14:17.485 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=ie, name=Quality Change Test}]])
+14:14:17.485 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=ie, name=Quality Change Test}]
+Started InternetExplorerDriver server (32-bit)
+2.45.0.0
+Listening on port 22453
+14:14:20.373 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=ie, name=Quality Change Test}]]
+14:14:20.404 INFO - Executing: [get: http://alpha-preview.cashew3d.com/login])
+14:14:20.977 INFO - Done: [get: http://alpha-preview.cashew3d.com/login]
+14:14:21.008 INFO - Executing: [find elements: By.cssSelector: body])
+14:14:21.102 INFO - Done: [find elements: By.cssSelector: body]
+14:14:21.118 INFO - Executing: [is displayed: 0 [[InternetExplorerDriver: internet explorer on WINDOWS (fe104ba9-d0ee-4b43-a9ec-186685cb6f75)] -> css selector: body]])
+14:14:21.164 INFO - Done: [is displayed: 0 [[InternetExplorerDriver: internet explorer on WINDOWS (fe104ba9-d0ee-4b43-a9ec-186685cb6f75)] -> css selector: body]]
+14:14:21.164 INFO - Executing: [find elements: By.cssSelector: input[name='email']])
+14:14:21.211 INFO - Done: [find elements: By.cssSelector: input[name='email']]
+14:14:21.211 INFO - Executing: [is displayed: 1 [[InternetExplorerDriver: internet explorer on WINDOWS (fe104ba9-d0ee-4b43-a9ec-186685cb6f75)] -> css selector: input[name='email']]])
+14:14:21.258 INFO - Done: [is displayed: 1 [[InternetExplorerDriver: internet explorer on WINDOWS (fe104ba9-d0ee-4b43-a9ec-186685cb6f75)] -> css selector: input[name='email']]]
+14:14:21.258 INFO - Executing: [find element: By.cssSelector: input[name='email']])
+14:14:21.305 INFO - Done: [find element: By.cssSelector: input[name='email']]
+14:14:21.305 INFO - Executing: [clear: 1 [[InternetExplorerDriver: internet explorer on WINDOWS (fe104ba9-d0ee-4b43-a9ec-186685cb6f75)] -> css selector: input[name='email']]])
+14:14:21.398 INFO - Done: [clear: 1 [[InternetExplorerDriver: internet explorer on WINDOWS (fe104ba9-d0ee-4b43-a9ec-186685cb6f75)] -> css selector: input[name='email']]]
+14:14:21.398 INFO - Executing: [find element: By.cssSelector: input[name='email']])
+14:14:21.461 INFO - Done: [find element: By.cssSelector: input[name='email']]
+14:14:21.461 INFO - Executing: [send keys: 1 [[InternetExplorerDriver: internet explorer on WINDOWS (fe104ba9-d0ee-4b43-a9ec-186685cb6f75)] -> css selector: input[name='email']], [j, o, h, n, n, y, t, e, s, t, s, @, m, a, t, t, e, r, a, n, d, f, o, r, m, ., n, e, t]])
+14:14:22.400 INFO - Done: [send keys: 1 [[InternetExplorerDriver: internet explorer on WINDOWS (fe104ba9-d0ee-4b43-a9ec-186685cb6f75)] -> css selector: input[name='email']], [j, o, h, n, n, y, t, e, s, t, s, @, m, a, t, t, e, r, a, n, d, f, o, r, m, ., n, e, t]]
+14:14:22.400 INFO - Executing: [find elements: By.cssSelector: input[name='password']])
+14:14:22.462 INFO - Done: [find elements: By.cssSelector: input[name='password']]
+14:14:22.462 INFO - Executing: [is displayed: 2 [[InternetExplorerDriver: internet explorer on WINDOWS (fe104ba9-d0ee-4b43-a9ec-186685cb6f75)] -> css selector: input[name='password']]])
+14:14:22.509 INFO - Done: [is displayed: 2 [[InternetExplorerDriver: internet explorer on WINDOWS (fe104ba9-d0ee-4b43-a9ec-186685cb6f75)] -> css selector: input[name='password']]]
+14:14:22.509 INFO - Executing: [find element: By.cssSelector: input[name='password']])
+14:14:22.556 INFO - Done: [find element: By.cssSelector: input[name='password']]
+14:14:22.556 INFO - Executing: [clear: 2 [[InternetExplorerDriver: internet explorer on WINDOWS (fe104ba9-d0ee-4b43-a9ec-186685cb6f75)] -> css selector: input[name='password']]])
+14:14:22.649 INFO - Done: [clear: 2 [[InternetExplorerDriver: internet explorer on WINDOWS (fe104ba9-d0ee-4b43-a9ec-186685cb6f75)] -> css selector: input[name='password']]]
+14:14:22.649 INFO - Executing: [find element: By.cssSelector: input[name='password']])
+14:14:22.696 INFO - Done: [find element: By.cssSelector: input[name='password']]
+14:14:22.696 INFO - Executing: [send keys: 2 [[InternetExplorerDriver: internet explorer on WINDOWS (fe104ba9-d0ee-4b43-a9ec-186685cb6f75)] -> css selector: input[name='password']], [R, e, a, d, y, P, l, a, y, e, r, O, n, e]])
+14:14:23.418 INFO - Done: [send keys: 2 [[InternetExplorerDriver: internet explorer on WINDOWS (fe104ba9-d0ee-4b43-a9ec-186685cb6f75)] -> css selector: input[name='password']], [R, e, a, d, y, P, l, a, y, e, r, O, n, e]]
+14:14:23.433 INFO - Executing: [find elements: By.cssSelector: button[data-hook='submit']])
+14:14:23.496 INFO - Done: [find elements: By.cssSelector: button[data-hook='submit']]
+14:14:23.496 INFO - Executing: [is displayed: 3 [[InternetExplorerDriver: internet explorer on WINDOWS (fe104ba9-d0ee-4b43-a9ec-186685cb6f75)] -> css selector: button[data-hook='submit']]])
+14:14:23.543 INFO - Done: [is displayed: 3 [[InternetExplorerDriver: internet explorer on WINDOWS (fe104ba9-d0ee-4b43-a9ec-186685cb6f75)] -> css selector: button[data-hook='submit']]]
+14:14:24.542 INFO - Executing: [find element: By.cssSelector: button[data-hook='submit']])
+14:14:24.636 INFO - Done: [find element: By.cssSelector: button[data-hook='submit']]
+14:14:24.636 INFO - Executing: [click: 3 [[InternetExplorerDriver: internet explorer on WINDOWS (fe104ba9-d0ee-4b43-a9ec-186685cb6f75)] -> css selector: button[data-hook='submit']]])
+14:14:24.792 INFO - Done: [click: 3 [[InternetExplorerDriver: internet explorer on WINDOWS (fe104ba9-d0ee-4b43-a9ec-186685cb6f75)] -> css selector: button[data-hook='submit']]]
+14:14:25.291 INFO - Executing: [find elements: By.cssSelector: button[data-hook='close-button']])
+14:14:25.509 INFO - Done: [find elements: By.cssSelector: button[data-hook='close-button']]
+14:14:25.509 INFO - Executing: [find element: By.cssSelector: button[data-hook='close-button']])
+14:14:25.603 INFO - Done: [find element: By.cssSelector: button[data-hook='close-button']]
+14:14:25.603 INFO - Executing: [click: 4 [[InternetExplorerDriver: internet explorer on WINDOWS (fe104ba9-d0ee-4b43-a9ec-186685cb6f75)] -> css selector: button[data-hook='close-button']]])
+14:14:25.792 INFO - Done: [click: 4 [[InternetExplorerDriver: internet explorer on WINDOWS (fe104ba9-d0ee-4b43-a9ec-186685cb6f75)] -> css selector: button[data-hook='close-button']]]
+14:14:26.806 INFO - Executing: [get title])
+14:14:26.837 INFO - Done: [get title]
+14:14:28.850 INFO - Executing: [find elements: By.cssSelector: div[data-hook='creations'] > article:nth-child(1)])
+14:14:28.943 INFO - Done: [find elements: By.cssSelector: div[data-hook='creations'] > article:nth-child(1)]
+14:14:28.943 INFO - Executing: [is displayed: 5 [[InternetExplorerDriver: internet explorer on WINDOWS (fe104ba9-d0ee-4b43-a9ec-186685cb6f75)] -> css selector: div[data-hook='creations'] > article:nth-child(1)]])
+14:14:29.006 INFO - Done: [is displayed: 5 [[InternetExplorerDriver: internet explorer on WINDOWS (fe104ba9-d0ee-4b43-a9ec-186685cb6f75)] -> css selector: div[data-hook='creations'] > article:nth-child(1)]]
+14:14:29.006 INFO - Executing: [find element: By.cssSelector: div[data-hook='creations'] > article:nth-child(1)])
+14:14:29.052 INFO - Done: [find element: By.cssSelector: div[data-hook='creations'] > article:nth-child(1)]
+14:14:29.052 INFO - Executing: [click: 5 [[InternetExplorerDriver: internet explorer on WINDOWS (fe104ba9-d0ee-4b43-a9ec-186685cb6f75)] -> css selector: div[data-hook='creations'] > article:nth-child(1)]])
+14:14:29.208 INFO - Done: [click: 5 [[InternetExplorerDriver: internet explorer on WINDOWS (fe104ba9-d0ee-4b43-a9ec-186685cb6f75)] -> css selector: div[data-hook='creations'] > article:nth-child(1)]]
+14:14:29.208 INFO - Executing: [find elements: By.cssSelector: div.creation-preview.stamp > div.creation-canvas-controls > button.drop-target])
+14:14:29.522 INFO - Done: [find elements: By.cssSelector: div.creation-preview.stamp > div.creation-canvas-controls > button.drop-target]
+14:14:30.037 INFO - Executing: [find elements: By.cssSelector: div.creation-preview.stamp > div.creation-canvas-controls > button.drop-target])
+14:14:30.389 INFO - Done: [find elements: By.cssSelector: div.creation-preview.stamp > div.creation-canvas-controls > button.drop-target]
+14:14:30.405 INFO - Executing: [delete session: b016cc2b-f3c1-48d1-83e2-ff5bbd948ecb])
+14:14:31.483 INFO - Done: [delete session: b016cc2b-f3c1-48d1-83e2-ff5bbd948ecb]

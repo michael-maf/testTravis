@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="upload_delete_test"
+    errors="0" failures="1" hostname="" id="" package="upload_delete_test" skipped="0"
+    tests="1" time="13.16" timestamp="Mon, 25 May 2015 14:05:13 GMT">
+  
+    <testcase name="Upload a creation then delete it" time="13.16" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;input[type=&#39;file&#39;][name=&#39;files&#39;]&gt; to be visible for 1000 milliseconds.">Timed out while waiting for element &lt;input[type=&#39;file&#39;][name=&#39;files&#39;]&gt; to be visible for 1000 milliseconds.: Expected &quot;visible&quot; but got: &quot;not visible&quot;
+    at F.WaitForElement.fail (C:\Users\Muhammad\desktop\nightwatch-testing\my_tests\nightwatch\lib\api\commands\_waitForElement.js:194:15)
+    at F.WaitForElementVisible.elementNotVisible (C:\Users\Muhammad\desktop\nightwatch-testing\my_tests\nightwatch\lib\api\commands\waitForElementVisible.js:61:15)
+    at Object.&lt;anonymous&gt; (C:\Users\Muhammad\desktop\nightwatch-testing\my_tests\nightwatch\lib\api\commands\_waitForElement.js:238:17)
+    at HttpRequest.&lt;anonymous&gt; (C:\Users\Muhammad\desktop\nightwatch-testing\my_tests\nightwatch\lib\index.js:299:20)
+    at HttpRequest.emit (events.js:110:17)
+    at HttpRequest.&lt;anonymous&gt; (C:\Users\Muhammad\desktop\nightwatch-testing\my_tests\nightwatch\lib\index.js:322:15)
+    at HttpRequest.emit (events.js:118:17)
+    at IncomingMessage.&lt;anonymous&gt; (C:\Users\Muhammad\desktop\nightwatch-testing\my_tests\nightwatch\lib\http\request.js:148:16)
+    at IncomingMessage.emit (events.js:129:20)
+    at _stream_readable.js:908:16</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
