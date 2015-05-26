@@ -10,6 +10,6 @@ before_script:
 
 script:
   - grunt --force
-  - npm test
+  - node nightwatch.js
 
 
